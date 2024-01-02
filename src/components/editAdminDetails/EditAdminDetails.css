@@ -1,0 +1,57 @@
+.section-title {
+    color: #4CAF50;
+    text-align: center;
+  }
+  
+  .custom-card {
+    max-width: 345px;
+    margin: 20px auto;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .custom-card img {
+    width: 100%;
+    /* border-top-left-radius: 10px;
+    border-top-right-radius: 10px; */
+  }
+  
+  .custom-card input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .custom-card .MuiTypography-root {
+    margin-bottom: 10px;
+  }
+  
+  .custom-card .MuiTypography-body3 {
+    text-align: center;
+  }
+  
+  .custom-card .MuiButton-root {
+    width: 100%;
+  }
+  /* עיצוב כללי ל-inputים */
+.custom-card input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px; /* גודל פונט */
+  }
+  
+  /* עיצוב כאשר ה-input במצב focus */
+  .custom-card input:focus {
+    outline: none; /* מונע את הקו התחתון הדיפולטי */
+    border-color: #4CAF50; /* גורם לגבולות להיות בצבע ירוק במצב focus */
+  }
+  
+  

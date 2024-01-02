@@ -1,0 +1,20 @@
+.addServicesButton {
+    background-color: #3498db; /* צבע רקע */
+    color: #fff; /* צבע טקסט */
+    padding: 10px 20px; /* מרווחיות */
+    border-radius: 5px; /* פינות מעוגלות */
+    cursor: pointer; /* סמן ליד כפתור */
+    font-size: 16px; /* גודל טקסט */
+    border: none; /* הסרת גבול */
+    outline: none; /* הסרת קו תצוגה */
+    position: fixed !important;
+    right:0;
+    top:70%;
+    width: 10%;
+  }
+  
+  .addServicesButton:hover {
+    background-color: #2980b9; /* שינוי צבע רקע בעת העברת העכבר */
+  }
+  
+  

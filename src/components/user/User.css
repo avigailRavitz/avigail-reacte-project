@@ -1,0 +1,12 @@
+.servicesCards{
+
+        position:absolute;
+        left:20%;
+        right:15%;
+        top:15%;
+}
+.addMeeting{
+    position: fixed;
+    top:12%;
+    right: 25%; 
+}

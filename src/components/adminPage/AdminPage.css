@@ -1,0 +1,52 @@
+
+   
+.custom-button {
+  background-color: #2dd2b1; /* צבע רקע */
+  color: #2dd2b1; /* צבע טקסט */
+  padding: 10px 20px; /* רווח פנימי */
+  font-size: 16px; /* גודל גופן */
+  border: none; /* להסיר גבולות */
+  text-align: center; /* ייאור טקסט למרכז */
+  text-decoration: none; /* להסיר קווים תחתונים */
+  display: inline-block; /* לתצוגה כבלוק כדי שנוכל להגדיר רוחב וגובה */
+  cursor: pointer; /* סמל עכבר מתקנה */
+  border-radius: 5px; /* פינות מעגלות */
+  margin: 5px; /* רווח בין הכפתורים */
+}
+
+.custom-link {
+  font-size:20px;
+  color: #2dd2b1; /* צבע הקישור */
+  text-decoration: none; /* להסיר קווים תחתונים */
+}
+
+.custom-button:hover {
+  background-color: #2dd2b1; /* צבע רקע בעת העצמת העכבר */
+}
+  .div{
+    margin-top: 300px;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+  }
+  #side{
+    /* margin-top: 200px; */
+    position: fixed;
+    left:72vw;
+    top:5vw;
+
+     width: 400px;
+    padding: 20px;
+     display: flex;
+    flex-direction: row;
+    z-index:2;
+   }
+/* .custom-button{
+
+  position:absolute;
+  left:20%;
+  right:15%;
+  top:15%;
+} */
+
